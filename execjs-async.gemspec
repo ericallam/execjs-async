@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Execjs::Async::VERSION
   s.authors     = ["Eric Allam"]
   s.email       = ["rubymaverick@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/rubymaverick/execjs-async"
   s.summary     = %q{Enables Asynchronous Javascript Execution in ExecJS}
   s.description = %q{Enables Asynchronous Javascript Execution in ExecJS}
 
