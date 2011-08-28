@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Eric Allam"]
   s.email       = ["rubymaverick@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Enables Asynchronous Javascript Execution in ExecJS}
+  s.description = %q{Enables Asynchronous Javascript Execution in ExecJS}
 
   s.rubyforge_project = "execjs-async"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "execjs", '~> 1.1.0'
 end
