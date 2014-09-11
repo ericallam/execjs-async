@@ -15,11 +15,11 @@ A short example:
         var jsdom = require('jsdom');
         
         jsdom.env(html, function(errors, window) {
-          callback(window.document.getElementByName('body').innerHTML);
+          callback(window.document.getElementById('my_header').innerHTML);
         });
       }
     JAVASCRIPT
-    context.call 'run', "<p>Hello World</p>"
+    context.call 'run', "<html><body><div id='my_header'><p>Hello World</p></div></body></html>"
     # => "<p>Hello World</p>"
     
 
